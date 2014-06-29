@@ -1,0 +1,55 @@
+body{
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;				
+        background: #788A96;
+}
+#NavBar{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 45px;
+        width: 100%;
+
+        background: #499bea; /* Old browsers */
+        background: -moz-linear-gradient(top,  #499bea 0%, #207ce5 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#499bea), color-stop(100%,#207ce5)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #499bea 0%,#207ce5 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #499bea 0%,#207ce5 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #499bea 0%,#207ce5 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #499bea 0%,#207ce5 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
+}
+
+#SiteTitle{
+        font-size: 25px;
+        line-height: 45px;
+        margin-left: 15px;
+        float:left;
+        font-weight: 700;
+        color: white;
+}
+#NavItemsContainer{
+        float:right;				
+}
+.NavItem{
+        display:inline-block;
+        line-height: 45px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        border-left: 1px solid #1a334e;
+}
+.NavItem a{
+        text-decoration:none;
+        color:white;
+}
+.NavItem:hover{
+        background-color: #207ce5;
+}
+#Content{
+        height: 1500px;
+        width: 930px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 15px;
+}
